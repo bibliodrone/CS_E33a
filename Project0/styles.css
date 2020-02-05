@@ -1,21 +1,21 @@
 body {
-    max-width: 1200px;
-    margin: auto;
+    /*max-width: 1200px;*/
+    /* margin: auto; */
     font-family: Arial, Helvetica, sans-serif;
 }
- 
+
 nav{
     display: flex; 
     flex-direction: row;
-    margin-bottom: 4em;
+    margin-bottom: 1em;
     margin-top: 1em;
     float: right;
 }
- 
+
 nav div {
     padding-right: 2em;
 }
- 
+
 #main-content {
     padding-top: 4rem;
     clear: both;
@@ -23,7 +23,11 @@ nav div {
     margin: auto;
     min-width: 33%;
 }
- 
+#advSearch-main-content {
+    padding-top: 1rem;
+    clear: right;
+}
+
 #main-content form {
     text-align: center;
 }
@@ -35,7 +39,22 @@ nav div {
     font-size: 42px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
- 
+#advSearch-main-title {
+    background-color: rgb(241,241,241);
+    padding: 5px;
+    color: mediumblue;
+    display: flex;
+    justify-content: left;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+#subtitle {
+    position: relative;
+    top: -2.8em;
+    right: -55%;
+    color:mediumblue;
+}
 input[type=text] {
     font-size: larger;
     border-radius: 25px;
@@ -46,13 +65,13 @@ input[type=text] {
     padding: 2px 5px;
     box-sizing: border-box;
 }
- 
+
 #submitButtons {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
- 
+
 input[type=submit] {
     border: 2px solid transparent;
     box-sizing: border-box;
@@ -60,11 +79,14 @@ input[type=submit] {
     padding: 0.5em;
     margin: 0.5em;
 }
- 
+.hiddeninput {
+    display: none;
+}
+
 input[type=submit]:hover {
     border: 2px solid lightgray;
 }
- 
+
 .blue {
     color:blue;
 }
@@ -77,4 +99,3 @@ input[type=submit]:hover {
 .green {
     color:green;
 }
-
