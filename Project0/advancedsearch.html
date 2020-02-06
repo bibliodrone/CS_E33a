@@ -9,12 +9,6 @@
 
 <body>
     <!--https://www.google.com/search?q=selection&btnK=Google+Search-->
-    <nav>
-        <!--<div><a href="https://google.com/imghp" target="_blank">Google Image Search</a></div> -->
-        <div><a href="index.html" target="_blank">Gargle Search</a></div>
-        <div><a href="imagesearch.html" target="_blank">Gargle Image Search</a></div>
-        <!--<div><a href="https://google.com/advanced_search" target="_blank">Google Advanced Search</a></div>-->
-    </nav>
     <div id="advSearch-main-title">
         <span class="blue">G</span>
         <span class="red">a</span>
@@ -23,48 +17,58 @@
         <span class="green">l</span>
         <span class="red">e</span>
     </div>
+    <nav>
+        <!--<div><a href="https://google.com/imghp" target="_blank">Google Image Search</a></div> -->
+        <div><a href="index.html" target="_blank">Gargle Search</a></div>
+        <div><a href="imagesearch.html" target="_blank">Gargle Image Search</a></div>
+        <!--<div><a href="https://google.com/advanced_search" target="_blank">Google Advanced Search</a></div>-->
+    </nav>
+    
     <div id="advSearch-main-content">
+        <header>
         <h2>Advanced Search</h2>
+        <hr>
         <h3>Find pages with...</h3>
+        
+        </header>
         <form action="https://google.com/search">
-            <div class="advsearchlabel">
-                <div>
+            <div class="advsearchgroup">
+                <div class="advinplabel">
                     <label for="allwords">all these words: </label>
                 </div>
-                <div>
+                <div class="advinput">
                     <input type="text" id="allwords" name="as_q">
                 </div>
             </div>
-            <div class="advsearchlabel">
-                <div>
+            <div class="advsearchgroup">
+                <div class="advinplabel">
                     <label for="exactwords">this exact word/phrase: </label>
                 </div>
-                <div>
+                <div class="advinput">
                     <input type="text" id="exactwords" name="as_epq">
                 </div>
             </div>
-            <div class="advsearchlabel">
-                <div>
+            <div class="advsearchgroup">
+                <div class="advinplabel">
                     <label for="anywords">any of these words: </label>
                 </div>
-                <div>
+                <div class="advinput">
                     <input type="text" id="anywords" name="as_oq">
                 </div>
             </div>
-            <div class="advsearchlabel">
-                <div>
+            <div class="advsearchgroup">
+                <div class="advinplabel">
                     <label for="nonewords">none of these words: </label>
                 </div>
-                <div>
+                <div class="advinput">
                     <input type="text" id="nonewords" name="as_eq">
                 </div>
             </div>
             <div id="submitButtons">
-                <input type="submit" value="Advanced Search">
+                <input type="submit" id="advSubmit" value="Advanced Search">
             </div>
         </form>
     </div>
-
 </body>
 
 </html>
