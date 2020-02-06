@@ -15,19 +15,49 @@
         <div><a href="imagesearch.html" target="_blank">Gargle Image Search</a></div>
         <!--<div><a href="https://google.com/advanced_search" target="_blank">Google Advanced Search</a></div>-->
     </nav>
+    <div id="advSearch-main-title">
+        <span class="blue">G</span>
+        <span class="red">a</span>
+        <span class="orange">r</span>
+        <span class='blue'>g</span>
+        <span class="green">l</span>
+        <span class="red">e</span>
+    </div>
     <div id="advSearch-main-content">
-        <div id="advSearch-main-title">
-            <span class="blue">G</span>
-            <span class="red">a</span>
-            <span class="orange">r</span>
-            <span class='blue'>g</span>
-            <span class="green">l</span>
-            <span class="red">e</span>
-        </div>
+        <h2>Advanced Search</h2>
+        <h3>Find pages with...</h3>
         <form action="https://google.com/search">
             <div class="advsearchlabel">
-                <label for="allthesewords">All these words: </label>
-                <input type="text" id="allthesewords" name="as_q">
+                <div>
+                    <label for="allwords">all these words: </label>
+                </div>
+                <div>
+                    <input type="text" id="allwords" name="as_q">
+                </div>
+            </div>
+            <div class="advsearchlabel">
+                <div>
+                    <label for="exactwords">this exact word/phrase: </label>
+                </div>
+                <div>
+                    <input type="text" id="exactwords" name="as_epq">
+                </div>
+            </div>
+            <div class="advsearchlabel">
+                <div>
+                    <label for="anywords">any of these words: </label>
+                </div>
+                <div>
+                    <input type="text" id="anywords" name="as_oq">
+                </div>
+            </div>
+            <div class="advsearchlabel">
+                <div>
+                    <label for="nonewords">none of these words: </label>
+                </div>
+                <div>
+                    <input type="text" id="nonewords" name="as_eq">
+                </div>
             </div>
             <div id="submitButtons">
                 <input type="submit" value="Advanced Search">
