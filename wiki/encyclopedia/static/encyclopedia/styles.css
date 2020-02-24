@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 70rem;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+ .searchForm {
+    text-align: center;
+ }
+.edit {
+    display: flex !important;
+    flex-direction: column;
+}
+.edit label {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.edit input[type='submit']{
+    width:8rem;
+    margin-top: 10px;
+    margin-left: 31rem;
+
+}
+.btn-default {
+    margin-top: 1.0rem;
+    border-radius: 5%;
+}
+.sidebar {
+    background-color: #f0f0f0;
+    height: 98vh;
+    padding: 20px;
+}
+.navlinks {
+    margin-top: 0.5rem;
+}
+.sidebar h2 {
+    margin-top: 5px;
+}
+#id_content {
+    width:65vw;
+    height:24em;
+}
+#id_title {
+    width:24rem;
+}
+#searchresults{
+    margin-top:5vh
+}
